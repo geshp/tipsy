@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Dalamud.NET.SDK/11.0.0">
   <PropertyGroup>
-    <Version>0.0.0.1</Version>
+    <Version>0.0.0.2</Version>
     <Description>Final Fantasy XIV Tipsy Plugin</Description>
-    <PackageProjectUrl>https://github.com/geshp/FF-Tipsy</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/geshp/tipsy</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
     <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\Data\goat.png">
+    <Content Include="..\Data\tipsy.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>
-    <Content Include="Tipsy.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="DalamudPackager" Version="12.0.0" />
