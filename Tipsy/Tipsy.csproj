@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Dalamud.NET.SDK/11.0.0">
+<Project Sdk="Dalamud.NET.SDK/12.0.0">
   <PropertyGroup>
     <AssemblyTitle>Tipsy</AssemblyTitle>
     <Product>Tipsy</Product>
@@ -11,7 +11,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <DownloadLinkInstall>https://github.com/geshp/tipsy/releases/download/release/Tipsy.json</DownloadLinkInstall>
     <DownloadLinkUpdate>https://github.com/geshp/tipsy/releases/download/release/Tipsy.json</DownloadLinkUpdate>
-    <IconURL>https://github.com/geshp/tipsy/releases/download/release/Tipsy.png</IconURL>
+    <IconURL>"https://github.com/geshp/tipsy/releases/download/release/Tipsy.png"</IconURL>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="..\Data\tipsy.png">
@@ -19,13 +19,13 @@
       <Visible>false</Visible>
     </Content>
   </ItemGroup>
-    <ItemGroup>
-        <Content Include="tipsy.json">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <Visible>false</Visible>
-        </Content>
-    </ItemGroup>
-    <ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Tipsy.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Update="DalamudPackager" Version="12.0.0" />
     <PackageReference Update="DotNet.ReproducibleBuilds" Version="1.2.25" />
   </ItemGroup>
