@@ -1,0 +1,25 @@
+[
+  {
+    "Author": "Murphyanne",
+    "Name": "Tipsy",
+    "InternalName": "Tipsy",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Alcohol for the masses!",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/geshp/tipsy",
+    "Tags": [
+      "emote",
+      "plugin"
+    ],
+    "DalamudApiLevel": 12,
+    "LoadPriority": 0,
+    "Punchline": "Alcohol for the masses!",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadCount": 0,
+    "LastUpdated": "1743496245",
+    "DownloadLinkInstall": "https://github.com/geshp/tipsy/releases/download/release/latest.zip",
+    "DownloadLinkTesting": "https://github.com/geshp/tipsy/releases/download/release/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/geshp/tipsy/releases/download/release/latest.zip"
+  }
+]
