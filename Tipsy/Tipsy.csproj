@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyTitle>Tipsy</AssemblyTitle>
     <Product>Tipsy</Product>
-    <Version>0.0.0.2</Version>
+    <Version>0.1.0.0</Version>
     <Description>Final Fantasy XIV Tipsy Plugin</Description>
     <PackageProjectUrl>https://github.com/geshp/tipsy</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
@@ -20,7 +20,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Tipsy.json">
+    <Content Include="..\Tipsy.repo">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>
